@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực hành CSS Grid Gap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Thực hành thuộc tính grid-gap</h1>
+
+    <!-- Ví dụ 1 -->
+    <section class="example">
+        <h2>Ví dụ 1: Khoảng cách hàng và cột bằng nhau</h2>
+
+        <div class="grid-container grid-one">
+            <div>Ô 1</div>
+            <div>Ô 2</div>
+            <div>Ô 3</div>
+            <div>Ô 4</div>
+        </div>
+
+        <p><strong>CSS:</strong> grid-gap: 20px;</p>
+        <p>Khoảng cách giữa các hàng và các cột đều là 20px.</p>
+    </section>
+
+    <!-- Ví dụ 2 -->
+    <section class="example">
+        <h2>Ví dụ 2: Khoảng cách hàng và cột khác nhau</h2>
+
+        <div class="grid-container grid-two">
+            <div>Ô 1</div>
+            <div>Ô 2</div>
+            <div>Ô 3</div>
+            <div>Ô 4</div>
+            <div>Ô 5</div>
+            <div>Ô 6</div>
+        </div>
+
+        <p><strong>CSS:</strong> grid-gap: 30px 10px;</p>
+        <p>Khoảng cách giữa các hàng là 30px, giữa các cột là 10px.</p>
+    </section>
+</body>
+</html>
